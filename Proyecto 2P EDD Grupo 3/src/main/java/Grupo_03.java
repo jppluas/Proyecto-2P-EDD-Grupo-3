@@ -1,10 +1,12 @@
 
 import java.io.File;
 import java.io.IOException;
+
 public class Grupo_03 {
+    
    public static void main(String args[]) throws IOException {
       //Creating a File object for directory
-      String ruta="E:/Descargas/Iterador";
+      String ruta="/Users/mbravop03/Desktop/ESPOL/Tercer Semestre/Estructura de Datos";
       File directoryPath = new File (ruta);
       //List of all files and directories
       File filesList[] = directoryPath.listFiles();
